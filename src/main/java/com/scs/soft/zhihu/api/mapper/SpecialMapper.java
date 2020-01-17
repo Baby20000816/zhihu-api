@@ -25,7 +25,7 @@ public interface SpecialMapper {
      *
      * @return List<Special>
      */
-    @Select("SELECT * FROM t_special ORDER BY updated DESC LIMIT 0,4 ")
+    @Select("SELECT * FROM t_special ORDER BY updated DESC  ")
     List<Special> selectRecent();
 
 
